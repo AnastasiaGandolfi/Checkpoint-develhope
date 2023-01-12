@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+.container > div {
+  height: 100vh;
+}
+.container > div:nth-child(2) {
+  flex: 2;
+  background-color: #F5F5FB;
+}
+.container > div:nth-child(1) {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container > div:nth-child(1) .uno {
+  display: flex;
+  justify-content: space-around;
+  height: 20px;
+}
+.container > div:nth-child(1) .uno .quadrato {
+  height: 20px;
+  width: 20px;
+  background-color: #C4C4C4;
+}
+.container > div:nth-child(1) .uno .rettangolo {
+  height: 20px;
+  width: 80px;
+  background-color: #C4C4C4;
+}
+.container > div:nth-child(1) .due {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.container > div:nth-child(1) .due .rettangolo {
+  height: 20px;
+  width: 100px;
+  background-color: #C4C4C4;
+}
+.container > div:nth-child(1) .tre .quadratone {
+  width: 100px;
+  height: 100px;
+  background-color: #C4C4C4;
+}
+
+/*# sourceMappingURL=style.css.map */
